@@ -1,0 +1,47 @@
+header{
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    padding: 10px;
+}
+.logo{
+    padding: 5px;
+}
+.logo a{
+    text-decoration: none;
+    color: #d1aa29;
+    font-size: 22px;
+    font-family: sans-serif;
+    font-style: oblique;
+}
+.meniu{
+    padding: 10px;
+}
+.icon{
+    padding: 5px;
+}
+.meniu a{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: black;
+    margin: 5px;
+}
+.roww{
+    float: left;
+    padding: 25px;
+    margin: 25px;
+    border-style: solid;
+    border-color: darkgray;
+    border-width: 2px;
+}
+.contact{
+    padding: 15px;
+}
+header img{
+    float: right;
+    padding-right: 25px;
+}
+

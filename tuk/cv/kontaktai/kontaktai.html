@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kontaktai</title>
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="kontaktai.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <
+
+</head>
+<body>
+<header>
+    <div class="meniu">
+        <a href="/">MAIN</a>
+        <a href="/tuk/cv/cv.html"> CV </a>
+        <a href="/tuk/cv/kontaktai/kontaktai.html"> CONTACTS </a>
+        <a href="/tuk/cv/portfolio/portfolio.html"> PORTFOLIO </a>
+    </div>
+    <div class="logo">
+        <a href="/">My Main</a>
+    </div>
+    <div class="icon">
+        <img src="hart.png" style="height: 20px">
+        <img src="cart.png" style="height: 20px">
+        <img src="person.png" style="height: 20px">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search">
+        <button class="btn btn-success" type="submit">Search</button>
+    </div>
+</header>
+<div class="contact">
+    <img src="../../../jora.jpg" style="height: 50px">
+    <h2>Joana Radzeviciute</h2>
+    <h4>Living in Kaunas</h4>
+    <h4>Telephone: +37063408049</h4>
+    <h4>Email: joranadz@gmail.com</h4>
+</div>
+<hr>
+<div class="roww">
+    <form action="doumenys.php" method="get">
+        <div>
+            <h2>1.</h2>
+            <label for="name">Vardas: </label>
+            <input type="text" name="name" id="name"><br>
+            <label for="Elp">El. pastas</label>
+            <input type="email" name="email" id="Elp"><br>
+            <label for="sms">Zinute</label>
+            <textarea name="sms" id="sms" rows="5" cols="10">...</textarea><br>
+            <input type="submit" value="SEND">
+            <input type="reset" value="RESET">
+        </div>
+    </form>
+    <form action="doumenys.php" method="get">
+        <div>
+            <h2>2.</h2>
+            <img src="one.png">
+            <label for="first"></label>
+            <input type="button" name="pirkinys1" id="first" value="one">
+
+            <img src="two.png">
+            <label for="second"></label>
+            <input type="button" name="pirkinys2" id="second" value="Two">
+
+            <img src="three.png">
+            <label for="third"></label>
+            <input type="button" name="pirkinys3" id="third" value="Three">
+
+            <input type="submit">
+
+        </div>
+    </form>
+    <form action="doumenys.php" method="get">
+        <h2>3.</h2>
+        <p>1. Kuris gyvunas labiausiai patinka</p>
+        <label for="q1">Gyvate</label>
+        <input type="radio" id="q1" name="gyvate">
+        <label for="q2">Sou</label>
+        <input type="radio" id="q2" name="Sou">
+        <label for="q3">Kate</label>
+        <input type="radio" id="q3" name="kate"><br>
+        <p>2. Koki duotumete varda savo gyvunui?</p>
+        <label for="gvardas"></label>
+        <input type="text" name="gvardas" id="gvardas"><br>
+        <p>3. Kokia to istorija?</p>
+        <label for="istorija"></label>
+        <textarea name="istorija" id="istorija" rows="10" cols="50"></textarea><br>
+        <p>4. Kokiu spalvu noretumete gyvuno?</p><br>
+        <label for="red">Raudona</label>
+        <input type="checkbox" name="raud" id="red">
+        <label for="bro">Ruda</label>
+        <input type="checkbox" name="ruda" id="bro">
+        <label for="yel">Geltona</label>
+        <input type="checkbox" name="geltona" id="Yel">
+        <label for="whi">Balta</label>
+        <input type="checkbox" name="balta" id="whi"><br>
+        <input type="submit" value="SUBMIT">
+    </form>
+</div>
+<div class="roww">
+    <form action="doumenys.php" method="get">
+        <label for="fn">Name</label>
+        <input name="firstName" type="text" id="fn"><br>
+        <input name="SecondName" type="text" id="sn" placeholder="Second name">
+        <label for="sn"></label><br>
+        <input type="date" name="Your age" id="age" for="age">Your Age<br>
+        <p>How much money do you want to spend:</p>
+        <label for="money"></label>
+        <input type="range" name="Money" min="50" max="500" id="money"><br>
+        <p>Selest favorit cars color</p>
+        <input type="color" name="color" id="color"><br>
+        <label for="color"></label>
+        <select name="car" id="masina">
+            <option value="bmw">BMW</option>
+            <option value="audi">Audi</option>
+            <option value="saab">Saab</option>
+            <option value="mini">MINI cooper</option>
+        </select><br>
+        <label for="zinute">Tavo zinute</label><br>
+        <textarea name="sms" id="zinute" rows="5" cols="20">Laba Labai Labai taip taip.
+    </textarea>
+        <button type="button" onclick="alert('Yes!!! its working')">Clikck me</button>
+        <input type="submit" value="saugoti">
+
+    </form>
+</div>
+
+</body>
+</html>

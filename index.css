@@ -1,0 +1,52 @@
+#grid{
+    display: grid;
+    grid-template-areas:
+        'x y y y y'
+        'x c c c w'
+        'x c c c w'
+        'b z z z z'
+;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+}
+.section{
+    background-color: aqua;
+}
+header{
+    background-color: blueviolet;
+    padding: 15px;
+    }
+header a{
+    padding: 5px;
+    margin: 5px;
+    font-size: 18px;
+    text-decoration: none;
+    font-style: italic;
+}
+.nim:hover pt{
+display: block;
+}
+pt{
+    font-size: 16px;
+    display: none;
+}
+.text{
+    background-color: crimson;
+}
+.butum{
+    background-color: #d1aa29;
+    text-align: center;
+    font-size: 24px;
+}
+@keyframes anim {
+    from{background-color: yellow;}
+    to{background-color: crimson;
+    height: 45px;}
+}
+.painting{
+    width: 150px;
+    height: 30px;
+    background-color: #d1aa29;
+    animation-name: anim;
+    animation-duration: 4s;
+}
